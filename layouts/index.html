@@ -11,12 +11,12 @@
             <a class="blog-logo" href="{{ .Permalink }}"><img src="{{.Site.BaseURL}}{{ .Site.Params.logo }}" alt="Blog Logo" /></a>
         {{end}}
         {{ if .Site.Menus.main }}
-            <a class="menu-button" href="#"><span class="burger">&#9776;</span><span class="word">Menu</span></a>
+            <a class="menu-button" href="#"><span class="burger">&#9776;</span><span class="word">菜单</span></a>
         {{else}}
             {{ if .Site.Params.RSSLink}}
-              <a class="menu-button icon-feed" href="{{.Site.Params.RSSLink }}">&nbsp;&nbsp;Subscribe</a>
+              <a class="menu-button icon-feed" href="{{.Site.Params.RSSLink }}">&nbsp;&nbsp;订阅</a>
             {{else}}
-              <a class="menu-button icon-feed" href="{{ .RSSLink }}">&nbsp;&nbsp;Subscribe</a>
+              <a class="menu-button icon-feed" href="{{ .RSSLink }}">&nbsp;&nbsp;订阅</a>
             {{end}}
         {{end}}
     </nav>
@@ -69,7 +69,7 @@
             <h2 class="page-description">{{ .Site.Params.description }}</h2>
         </div>
     </div>
-    <a class="scroll-down icon-arrow-left" href="#content"><span class="hidden">Scroll Down</span></a>
+    <a class="scroll-down icon-arrow-left" href="#content"><span class="hidden">向下</span></a>
 </header>
 
 
