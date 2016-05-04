@@ -1,5 +1,10 @@
+`
+中文翻译
+`
+
 # CASPER theme for hugo
     
+
 
 Casper is a single-column theme for [Hugo](http://gohugo.io/).
 Ported from [Casper theme for Ghost ](https://github.com/TryGhost/Casper)
