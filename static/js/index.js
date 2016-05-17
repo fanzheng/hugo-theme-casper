@@ -54,3 +54,4 @@
 
     };
 })(jQuery);
+pangu.spacingPage(); //add space between Chinese characters and English Characters.
